@@ -1,6 +1,6 @@
 # KiCad JLCPCB BOM Plugin
 
-Extract a JLCPCB-compliant bill of materials directly from your KiCad schematic.
+Generate a JLCPCB-compliant bill of materials directly from your KiCad schematic.
 
 ## Installation
 This script requires Python 3.x version.
@@ -22,5 +22,5 @@ Instructions for exporting JLCPCB BOM from KiCad's Eschema:
 ## Custom Fields
 You can customize the script's output by adding the following fields to your components:
 
-"LCSC" - Add this field to include an LCSC Part number in the generated BOM. e.g.: C2286 for a red LED.
+"LCSC" - Add this field to include an LCSC Part number in the generated BOM. e.g.: C98220 for a 10kΩ 0603 Chip Resistor.
 "LCSC" - Set this field to 0 (or "False") to omit the component from the generated BOM.
