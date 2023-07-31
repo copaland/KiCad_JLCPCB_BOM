@@ -24,3 +24,14 @@ You can customize the script's output by adding the following fields to your com
 
 "LCSC" - Add this field to include an LCSC Part number in the generated BOM. e.g.: C98220 for a 10kΩ 0603 Chip Resistor.
 "LCSC" - Set this field to 0 (or "False") to omit the component from the generated BOM.
+
+## kicad_netlist_reader
+### Python Code  
+The Python code in this library may be installed in any number of ways, chose one.  
+
+pip  
+```
+python3 -m kicad C:\kicad\kicad_netlist_reader   
+C:\kicad\kicad_netlist_reader\Scripts\activate  
+pip install kicad_netlist_reader  
+```
